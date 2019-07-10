@@ -29,7 +29,7 @@ while True:
     action = input()
     if action == 'exit':
         print('Пока!')
-        break
+        exit()
     elif action == 'stats':
         dash = '-' * 40
         print(dash)
